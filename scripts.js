@@ -34,7 +34,6 @@ window.addEventListener("load", function() {
         }
     });
     upButton.addEventListener("click", function() {
-        shuttleHeight. += 10000;
-
+        shuttleHeight.innerHTML += 10000;
     })
 });
